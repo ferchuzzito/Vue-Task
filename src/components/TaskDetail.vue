@@ -26,7 +26,7 @@ import { defineComponent } from "vue";
 import { Task } from "@/interfaces/Task";
 import { deleteTask, getTask, updateTask } from "@/services/TaskService";
 export default defineComponent({
-  name: "task",
+  name: "task-Detail",
   data() {
     return {
       currentTask: {} as Task,

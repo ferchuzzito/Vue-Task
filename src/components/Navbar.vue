@@ -30,6 +30,6 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 export default defineComponent({
-  name: "Navbar",
+  name: "Nav-bar",
 });
 </script>
