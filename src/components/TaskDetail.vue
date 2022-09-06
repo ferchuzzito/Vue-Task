@@ -24,8 +24,8 @@ export default defineComponent({
   setup() {
     const route = useRoute();
     const router = useRouter()
-    let cTask = reactive({} as Task);
-    let currentTask = ref(cTask);
+    const cTask = reactive({} as Task);
+    const currentTask = ref(cTask);
 
     async function loadTask(id: string) {
       try {

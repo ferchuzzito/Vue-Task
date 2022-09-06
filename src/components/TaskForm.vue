@@ -23,7 +23,7 @@ import { createTask } from "@/services/TaskService";
 export default defineComponent({
   setup() {
     const router = useRouter();
-    let task = reactive({} as Task);
+    const task = reactive({} as Task);
 
     async function saveTask() {
       try {

@@ -17,8 +17,8 @@ export default defineComponent({
   name: "tasks-list",
   setup() {
     const router = useRouter();
-    let tsk = reactive([] as Task[]);
-    let tasks = ref(tsk)
+    const tsk = reactive([] as Task[]);
+    const tasks = ref(tsk)
 
     async function loadTasks() {
       try {
